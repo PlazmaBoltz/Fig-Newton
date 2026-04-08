@@ -8,6 +8,18 @@
           "build/netstandard2.0/coverlet.collector.targets": {}
         }
       },
+      "Harmony/0.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Splat": "1.6.2"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81/Harmony.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81/Harmony.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/2.22.0": {
         "type": "package",
         "compile": {
@@ -615,6 +627,28 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.props": {},
           "build/netcoreapp3.1/NUnit3TestAdapter.targets": {}
         }
+      },
+      "Splat/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/Splat.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Net45/Splat.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "StarMap.API/0.3.6": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/StarMap.API.dll": {}
+        },
+        "runtime": {
+          "lib/net10.0/StarMap.API.dll": {}
+        }
       }
     }
   },
@@ -687,6 +721,19 @@
         "coverlet-icon.png",
         "coverlet.collector.6.0.4.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Harmony/0.3.0": {
+      "sha512": "cdzPHHS6bgbxXbHQkZLxOn1XxZqIZDGgmRALD1V5d1wQSl1CpQdtDax2i14PDHSHHKWqiyDu3UbeJ+7kYXiquQ==",
+      "type": "package",
+      "path": "harmony/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.txt",
+        "harmony.0.3.0.nupkg.sha512",
+        "harmony.nuspec",
+        "lib/portable-net45+win+wpa81/Harmony.dll"
       ]
     },
     "Microsoft.ApplicationInsights/2.22.0": {
@@ -1504,14 +1551,61 @@
         "nunit3testadapter.nuspec",
         "nunit_256.png"
       ]
+    },
+    "Splat/1.6.2": {
+      "sha512": "DeH0MxPU+D4JchkIDPYG4vUT+hsWs9S41cFle0/4K5EJMXWurx5DzAkj2366DfK14/XKNhsu6tCl4dZXJ3CD4w==",
+      "type": "package",
+      "path": "splat/1.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoMac/Splat.dll",
+        "lib/MonoMac/Splat.dll.mdb",
+        "lib/Net45/Splat.dll",
+        "lib/Net45/Splat.pdb",
+        "lib/NetCore45/Splat.dll",
+        "lib/NetCore45/Splat.pdb",
+        "lib/NetCore45/Splat.pri",
+        "lib/Portable-Win81+Wpa81/Splat.dll",
+        "lib/Portable-Win81+Wpa81/Splat.pdb",
+        "lib/Portable-Win81+Wpa81/Splat.pri",
+        "lib/Portable-net45+win+wpa81+wp80/Splat.dll",
+        "lib/Xamarin.Mac10/Splat-XamarinMac.csproj.FilesWrittenAbsolute.txt",
+        "lib/Xamarin.Mac10/Splat.dll",
+        "lib/Xamarin.Mac10/Splat.dll.mdb",
+        "lib/Xamarin.iOS10/Splat.dll",
+        "lib/Xamarin.iOS10/Splat.dll.mdb",
+        "lib/monoandroid/Splat.dll",
+        "lib/monoandroid/Splat.dll.mdb",
+        "lib/monotouch/Splat.dll",
+        "lib/monotouch/Splat.dll.mdb",
+        "lib/wp8/Splat.dll",
+        "lib/wp8/Splat.pdb",
+        "splat.1.6.2.nupkg.sha512",
+        "splat.nuspec"
+      ]
+    },
+    "StarMap.API/0.3.6": {
+      "sha512": "wYcs0x7Dtxn0xI3I3mXnUFLAxHFfj+iR8nfz8CIIXRXIPjvxxsfsGLmcvxzwmQR/HiPUW5XLyiWm3ga9MFaV2Q==",
+      "type": "package",
+      "path": "starmap.api/0.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0/StarMap.API.dll",
+        "starmap.api.0.3.6.nupkg.sha512",
+        "starmap.api.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Harmony >= 0.3.0",
       "Microsoft.NET.Test.Sdk >= 17.14.0",
       "NUnit >= 4.3.2",
       "NUnit.Analyzers >= 4.7.0",
       "NUnit3TestAdapter >= 5.0.0",
+      "Starmap.API >= 0.3.6",
       "coverlet.collector >= 6.0.4"
     ]
   },
@@ -1521,11 +1615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton\\Fig-Newton.csproj",
+      "projectUniqueName": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
       "projectName": "Fig-Newton",
-      "projectPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton\\Fig-Newton.csproj",
+      "projectPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
       "packagesPath": "C:\\Users\\gjcer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton\\obj\\",
+      "outputPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gjcer\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1558,6 +1652,10 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "Harmony": {
+            "target": "Package",
+            "version": "[0.3.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.14.0, )"
@@ -1573,6 +1671,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "Starmap.API": {
+            "target": "Package",
+            "version": "[0.3.6, )"
           },
           "coverlet.collector": {
             "target": "Package",
@@ -1872,5 +1974,27 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Harmony 0.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Harmony",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Splat 1.6.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Splat",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

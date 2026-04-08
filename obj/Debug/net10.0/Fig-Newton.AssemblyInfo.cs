@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fig-Newton")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e06604ccd806a96a5de9ff7c6a472ad260d68eda")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fig-Newton")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fig-Newton")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

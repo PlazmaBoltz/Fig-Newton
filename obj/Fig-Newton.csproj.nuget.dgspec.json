@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton\\Fig-Newton.csproj": {}
+    "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton\\Fig-Newton.csproj": {
+    "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton\\Fig-Newton.csproj",
+        "projectUniqueName": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
         "projectName": "Fig-Newton",
-        "projectPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton\\Fig-Newton.csproj",
+        "projectPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
         "packagesPath": "C:\\Users\\gjcer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton\\obj\\",
+        "outputPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gjcer\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +44,10 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "Harmony": {
+              "target": "Package",
+              "version": "[0.3.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.14.0, )"
@@ -59,6 +63,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Starmap.API": {
+              "target": "Package",
+              "version": "[0.3.6, )"
             },
             "coverlet.collector": {
               "target": "Package",
