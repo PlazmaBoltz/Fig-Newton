@@ -1,0 +1,5 @@
+C:\Users\gjcer\OneDrive\Documents\My Games\Kitten Space Agency\mods\Fig-Newton\Fig-Newton\obj\Debug\net10.0\Fig-Newton.csproj.AssemblyReference.cache
+C:\Users\gjcer\OneDrive\Documents\My Games\Kitten Space Agency\mods\Fig-Newton\Fig-Newton\obj\Debug\net10.0\Fig-Newton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gjcer\OneDrive\Documents\My Games\Kitten Space Agency\mods\Fig-Newton\Fig-Newton\obj\Debug\net10.0\Fig-Newton.AssemblyInfoInputs.cache
+C:\Users\gjcer\OneDrive\Documents\My Games\Kitten Space Agency\mods\Fig-Newton\Fig-Newton\obj\Debug\net10.0\Fig-Newton.AssemblyInfo.cs
+C:\Users\gjcer\OneDrive\Documents\My Games\Kitten Space Agency\mods\Fig-Newton\Fig-Newton\obj\Debug\net10.0\Fig-Newton.csproj.CoreCompileInputs.cache
