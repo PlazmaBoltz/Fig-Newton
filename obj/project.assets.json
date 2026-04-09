@@ -1615,11 +1615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
+      "projectUniqueName": "c:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
       "projectName": "Fig-Newton",
-      "projectPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
+      "projectPath": "c:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
       "packagesPath": "C:\\Users\\gjcer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\obj\\",
+      "outputPath": "c:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gjcer\\AppData\\Roaming\\NuGet\\NuGet.Config"

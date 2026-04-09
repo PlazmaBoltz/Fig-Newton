@@ -26,6 +26,9 @@
     <Reference Include="Brutal.ImGui">
       <HintPath>C:\Program Files\Kitten Space Agency\Brutal.ImGui.dll</HintPath>
     </Reference>
+    <Reference Include="KSA">
+      <HintPath>C:\Program Files\Kitten Space Agency\KSA.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

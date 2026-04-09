@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r9HjOYQDnpk=",
+  "dgSpecHash": "M9N6CascpZ8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
+  "projectFilePath": "c:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gjcer\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\gjcer\\.nuget\\packages\\harmony\\0.3.0\\harmony.0.3.0.nupkg.sha512",
@@ -28,9 +28,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Harmony 0.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
+      "projectPath": "c:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
+      "filePath": "c:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
       "libraryId": "Harmony",
       "targetGraphs": [
         "net10.0"
@@ -40,9 +40,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Splat 1.6.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
+      "projectPath": "c:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
+      "filePath": "c:\\Users\\gjcer\\OneDrive\\Documents\\My Games\\Kitten Space Agency\\mods\\Fig-Newton\\Fig-Newton.csproj",
       "libraryId": "Splat",
       "targetGraphs": [
         "net10.0"
